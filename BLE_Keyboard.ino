@@ -61,7 +61,7 @@ BLEService deviceService("0000180a-0000-1000-8000-00805f9b34fb"); // BLE device 
 BLEService battService("0000180f-0000-1000-8000-00805f9b34fb"); // BLE HID Battery Service
 
 // BLE Device Information characteristic
-BLEByteCharacteristic pnpCharacteristic("00002a50-0000-1000-8000-00805f9b34fb", BLERead);
+BLECharacteristic pnpCharacteristic("00002a50-0000-1000-8000-00805f9b34fb", BLERead, sizeof(pnpID), true);
 
 // BLE HID battery level characteristic
 BLEByteCharacteristic hidBatteryLevelCharacteristic("00002a19-0000-1000-8000-00805f9b34fb", BLERead);
