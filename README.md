@@ -6,7 +6,7 @@ bitbank@pobox.com<br>
 <br>
 ![BBQ10 Keyboard](/bbq10kbd.jpg?raw=true "BBQ10KBD PMOD")
 <br>
-The purpose of this code is use the Arduino 33 BLE along with the BBQ10 keyboard
+The purpose of this code is to use the Arduino 33 BLE along with the BBQ10 keyboard
 to create a functional BLE HID keyboard. The challenge is that the current Arduino
 33 BLE library code does not contain any HID support, so all of the services and
 characteristics that must be implemented to create an HID keyboard have to be done
